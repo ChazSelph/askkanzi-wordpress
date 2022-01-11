@@ -162,6 +162,8 @@ h6 {
 
 .header .nav-item {
     font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
 }
 
 .header .nav-item.active a {
@@ -232,7 +234,7 @@ h6 {
 }
 .gradient{
     background: rgb(43,43,43);
-    background: linear-gradient(151deg, var(--orange) 0%, var(--pink) 35%,var(--primary) 100%) !important;
+    background: linear-gradient(151deg, var(--primary) 0%, var(--pink) 35%,var(--orange) 100%) !important;
 }
 .content .post .title {
     font-size: 1.275rem

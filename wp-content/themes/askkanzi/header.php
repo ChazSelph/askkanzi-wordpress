@@ -9,10 +9,10 @@
     <meta name="description" content="Ask Kanzi">
     <meta name="author" content="https://chazselph.github.io">    
     <link rel="shortcut icon" href="images/logo.png"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
-	    
+	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald&display=swap" rel="stylesheet">
+		    
 
 	<?php
 
