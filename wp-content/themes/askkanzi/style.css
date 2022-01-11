@@ -59,7 +59,7 @@ This theme, like WordPress, is licensed under the GPL.
 *,
 *::before,
 *::after {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 html {
@@ -67,7 +67,7 @@ html {
 }
 body {
     color: var(--secondary);
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 a{
     color: var(--pink);
@@ -79,24 +79,24 @@ h4,
 h5,
 h6 {
     color: var(--gray-dark);
-    font-weight: bold
+    font-weight: bold;
 }
 
 .btn {
     font-weight: bold;
     padding: .375rem 1rem;
     height: 2.75rem;
-    transition: all 0.4s ease-in-out
+    transition: all 0.4s ease-in-out;
 }
 
 
 .btn:focus,
 .btn.focus {
-    box-shadow: none !important
+    box-shadow: none !important;
 }
 
 .btn-primary {
-    color: #fff
+    color: #fff;
 }
 
 .form-control {
@@ -107,11 +107,11 @@ h6 {
 }
 
 .theme-bg-light {
-    background: var(--light) !important
+    background: var(--light) !important;
 }
 
 .theme-bg-dark {
-    background: var(--dark) !important
+    background: var(--dark) !important;
 }
 
 .header {
@@ -133,27 +133,27 @@ h6 {
     background: rgba(0, 0, 0, 0.3);
     border-color: transparent;
     font-size: 1rem;
-    padding-top: 0.5rem
+    padding-top: 0.5rem;
 }
 
 .header .btn-primary:hover {
     background: rgba(0, 0, 0, 0.4);
-    border-color: transparent
+    border-color: transparent;
 }
 
 .header .navbar {
-    padding: 2rem 1rem
+    padding: 2rem 1rem;
 }
 
 .header .navbar-dark .navbar-toggler {
     border: none;
-    padding: .25rem .6rem
+    padding: .25rem .6rem;
 }
 
 .header .navbar-dark .navbar-toggler:hover {
     -webkit-opacity: 1;
     -moz-opacity: 1;
-    opacity: 1
+    opacity: 1;
 }
 
 .header .navbar-dark .navbar-toggler-icon {
@@ -161,24 +161,24 @@ h6 {
 }
 
 .header .nav-item {
-    font-weight: bold
+    font-weight: bold;
 }
 
-.header .nav-item.active .nav-link {
-    color: rgba(0, 0, 0, 0.5)
+.header .nav-item.active a {
+    color: rgba(0, 0, 0, 0.5);
 }
 
-.header .nav-item.active .nav-link:hover {
-    text-decoration: none
+.header .nav-item.active a:hover {
+    text-decoration: none;
 }
 
-.header .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.8)
+.header .nav-item a {
+    color: rgba(255, 255, 255, 0.8);
 }
 
-.header .nav-item .nav-link:hover {
-    text-decoration: underline;
-    color: rgba(0, 0, 0, 0.6)
+.header .nav-item a:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
 }
 .logo{
     width:78px;
@@ -220,6 +220,7 @@ h6 {
     font-size: 2rem;
     font-weight: bold;
     color:white;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .footer {
@@ -286,20 +287,20 @@ h6 {
     display: none
 }
 
-.blog-nav .nav-link {
+.blog-nav a {
     background: var(--primary);
     color: #fff;
     font-size: 1rem;
     padding: 1rem;
     font-weight: bold;
-    position: relative
+    position: relative;
 }
 
-.blog-nav .nav-link:hover {
+.blog-nav a:hover {
     background: var(--secondary);
 }
 
-.blog-nav .nav-link-prev {
+.blog-nav a {
     border-right: 1px solid var(--secondary);
 }
 
