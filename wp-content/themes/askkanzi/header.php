@@ -23,9 +23,8 @@
 </head> 
 
 <body>
-    
     <header class="header text-center">	    
-	    <a class="site-title pt-lg-4 mb-0" href="index.html">Ask Kanzi</a>
+	    <a class="site-title pt-lg-4 mb-0" href="<?php get_template_part('front-page.php'); ?>">Ask Kanzi</a>
         
 	    <nav class="navbar navbar-expand-lg navbar-dark" >
            
@@ -46,30 +45,14 @@
 						)
 					);
 				?>
-
 				<hr>
-				
-
 			</div>
-
-
-
-
 		</nav>
-
 			<?php  
 
 				dynamic_sidebar('sidebar-1');
 			?>
-
-
-
-
-
-
-
     </header>
-
         <div class="main-wrapper">
 	    <header class="page-title theme-bg-light text-center gradient py-5">
 			<h1 class="heading">Ask Kanzi</h1>
