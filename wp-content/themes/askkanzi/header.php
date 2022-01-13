@@ -48,14 +48,26 @@
 				?>
 
 				<hr>
-				<ul class="social-list list-inline py-3 mx-auto">
-					<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-					<li class="list-inline-item"><a href="#"><i class="fab fa-youtube fa-fw"></i></a></li>
-
-				</ul>
+				
 
 			</div>
+
+
+
+
 		</nav>
+
+			<?php  
+
+				dynamic_sidebar('sidebar-1');
+			?>
+
+
+
+
+
+
+
     </header>
 
         <div class="main-wrapper">

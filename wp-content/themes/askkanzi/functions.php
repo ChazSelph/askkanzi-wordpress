@@ -1,12 +1,14 @@
 <?php
 
 
-
 function askkanzi_theme_support(){
 	add_theme_support('custom-logo');
+	add_theme_support('post-thumbnails');
+
 }
 
 add_action('after_setup_theme', 'askkanzi_theme_support');
+
 
 function askkanzi_menus(){
 
@@ -24,7 +26,6 @@ function askkanzi_menus(){
 add_action('init', 'askkanzi_menus');
 
 
-
 function askkanzi_register_styles(){
 
 
@@ -38,8 +39,6 @@ function askkanzi_register_styles(){
 add_action('wp_enqueue_scripts', 'askkanzi_register_styles');
 
 
-
-
 function askkanzi_register_scripts(){
 
 	wp_enqueue_script('askkanzi-jquery', 'https://code.jquery.com/jquery-3.4.1.slim.min.js', array(), '3.4.1', true);
@@ -51,5 +50,34 @@ function askkanzi_register_scripts(){
 add_action('wp_enqueue_scripts', 'askkanzi_register_scripts');
 
 
+function askkanzi_widget_areas(){
+	register_sidebar(
+		array(
+			'before_title' => '',
+			'after_title' => '',
+			'before_widget' => '<ul class="social-list list-inline py-3 mx-auto">',
+			'after_widget' => '</ul>',
+			'name' => 'Sidebar Area',
+			'id' => 'sidebar-1',
+			'description' => 'Sidebar Widget Area'
+		)
+	);
+
+	register_sidebar(
+		array(
+			'before_title' => '',
+			'after_title' => '',
+			'before_widget' => '',
+			'after_widget' => '',
+			'name' => 'Footer Area',
+			'id' => 'footer-1',
+			'description' => 'Footer Widget Area'
+		)
+	);
+}
+
+
+
+add_action('widgets_init', 'askkanzi_widget_areas');
 
 ?>
