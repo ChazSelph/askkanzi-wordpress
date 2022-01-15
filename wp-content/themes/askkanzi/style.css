@@ -219,14 +219,14 @@ h6 {
     padding:1em 0 !important;
 }
 .page-title .heading {
-    font-size: 2rem;
+    font-size: 50px;
     font-weight: bold;
     color:white;
     font-family: 'Fjalla One', sans-serif;
 }
 
 .footer {
-    color: rgba(255, 255, 255, 0.7)
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .footer a {
@@ -235,6 +235,9 @@ h6 {
 .gradient{
     background: rgb(43,43,43);
     background: linear-gradient(151deg, var(--primary) 0%, var(--pink) 35%,var(--orange) 100%) !important;
+}
+.content {
+    margin-bottom: 42%;
 }
 .content .post .title {
     font-size: 1.275rem
@@ -782,5 +785,8 @@ div.comment:first-of-type {
     margin-bottom: 5%;
 
 }
-
+.wp-block-image figcaption {
+    text-align:  center;
+    font-size:  10px;
+}
 }
