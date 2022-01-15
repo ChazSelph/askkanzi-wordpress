@@ -237,18 +237,18 @@ h6 {
     background: linear-gradient(151deg, var(--primary) 0%, var(--pink) 35%,var(--orange) 100%) !important;
 }
 .content {
-    margin-bottom: 42%;
+    margin-bottom: 35%;
 }
 .content .post .title {
     font-size: 1.275rem
 }
 
 .content .post .title a {
-    color: var(--gray-dark)
+    color: var(--gray-dark);
 }
 
 .content .post .title a:hover {
-    color: var(--gray-dark)
+    color:  #ee3577;
 }
 
 .content .post .post-thumb {
@@ -325,7 +325,7 @@ h6 {
 
 .content .title {
     font-weight: bold;
-    font-size: 2rem
+    font-size: 2rem;
 }
 
 .content .content-body p,
@@ -779,8 +779,7 @@ div.comment:first-of-type {
 
 .front-page-p {
     font-size:  18px;
-    margin-left:  10%;
-    margin-right:  15%;
+    margin-right:  5%;
     line-height: 1.8;
     margin-bottom: 5%;
 
@@ -788,5 +787,9 @@ div.comment:first-of-type {
 .wp-block-image figcaption {
     text-align:  center;
     font-size:  10px;
+}
+.front-page-content {
+    margin-bottom: 5%;
+
 }
 }

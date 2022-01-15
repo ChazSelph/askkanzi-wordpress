@@ -3,9 +3,9 @@
 ?>   
 
 
-		<article class="content px-3 py-5 p-md-5">
+		<article class="content front-page-content px-3 py-5 p-md-5">
 	    <div class='container'>
-			<p class="mt-3 lead">Ask Kanzi consists of a group of researchers dedicated to the well-being of nonhumans through linguistic communication. </p>
+			<p class="mt-3 lead">Ask Kanzi is an LLC composed of researchers dedicated to exploring the nonhuman mind through multi-modal communication. </p>
 
 			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner">
@@ -50,9 +50,6 @@
 				  </div>
 				</div>
 		</div>
-	    </article>
-
-
 		<article class="front-page-p" >
 			<?php 
 				if(have_posts()){
@@ -63,6 +60,10 @@
 				}
 			?>
 	    </article>
+	    </article>
+
+
+		
 	    
 <?php 
 	get_footer();
