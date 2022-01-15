@@ -5,7 +5,7 @@
 
 		<article class="content px-3 py-5 p-md-5">
 	    <div class='container'>
-			<p class="mt-3 lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+			<p class="mt-3 lead">Ask Kanzi consists of a group of researchers dedicated to the well-being of nonhumans through linguistic communication. </p>
 
 			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner">
@@ -29,24 +29,23 @@
 				</a>
 			  </div>
 			  <section class="theme-bg-dark py-5 mt-4 text-center">
-				<h3 class='text-light d-block'>Read about the Legal Petition </h3>
-				<h3 class='text-light d-block'>against Ape Initiative</h3>
+				<h3 class='text-light d-block'>Read about the Legal Petition</h3>
                     <button type="submit" class="btn btn-primary">Read here</button>
 				</section>
 			<div class="row row-cols-1 mt-4 row-cols-md-2">
 				<div class="col mb-4">
 				  <div class="card">
 					<div class="card-body">
-					  <h5 class="card-title">Interspecies Internet</h5>
-					  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					  <h5 class="card-title">Animals Say What? Podcast</h5>
+					  <p class="card-text">Sue Savage-Rumbaugh and Chaz Selph join Anysja Roberts to discuss communication and the nonhuman mind. Listen <a href="/wordpress/2022/01/11/animals-say-what-podcast/">here</a>.</p>
 					</div>
 				  </div>
 				</div>
 				<div class="col mb-4">
 				  <div class="card">
 					<div class="card-body">
-					  <h5 class="card-title">Card title</h5>
-					  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					  <h5 class="card-title">Interspecies Internet</h5>
+					  <p class="card-text"><a href="https://www.interspecies.io">Read here</a> about the think-tank to accelerate understanding of interspecies communication.</p>
 					</div>
 				  </div>
 				</div>

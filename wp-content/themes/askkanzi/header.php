@@ -24,7 +24,7 @@
 
 <body>
     <header class="header text-center">	    
-	    <a class="site-title pt-lg-4 mb-0" href="<?php get_template_part('front-page.php'); ?>">Ask Kanzi</a>
+	    <a class="site-title pt-lg-4 mb-0" href="<?php echo get_home_url(); ?>">Ask Kanzi</a>
         
 	    <nav class="navbar navbar-expand-lg navbar-dark" >
            
