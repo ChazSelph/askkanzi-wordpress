@@ -40,19 +40,29 @@
 			
 			  
 
-			<div class="card">
-			  <h5 class="card-header">Featured</h5>
-			  <div class="card-body">
-			    <h5 class="card-title">Meet Dr. Sue Savage-Rumbaugh</h5>
-			    <p class="card-text">“Now we must invent common methods for either interpreting the sound utterances of nonhuman beings or allow them to produce sounds that can make-meaning in dialogues with us, using devices with commonly shared symbols on them. If we fail in this task, our ‘superior consciousness and linguistic capacities’ will be of no consequence.” 
-			</p>
-			    <a href="#" class="btn btn-primary">Go somewhere</a>
-			  </div>
-			</div>
+				<div class="card featured">
+				  <h5 class="card-header">Featured</h5>
+				  <div class="wrapper">
+				  	<img class="featured-image" src="/wordpress/wp-content/themes/askkanzi/assets/images/sue-savage-rumbaugh.jpg" alt="Sue Savage-Rumbaugh">
+				  	<div class="card-body">
+					    <h5 class="card-title">Meet Dr. Sue Savage-Rumbaugh</h5>
+					    <p class="card-text">Dr. Sue Rumbaugh began working with apes in 1970 at the University of Oklahoma. She taught apes to sign and conducted research with a group of 4 mothers and their infants living together, as contrasted with 4 chimpanzees being cross fostered by humans. She moved to GSU where she worked with Lana, the first chimpanzee to use a keyboard system to acquire language. Then with Sherman and Austin, the first chimpanzees to use graphic symbols to communicate with one another. Then with Matata and her family, including Kanzi, the first ape to acquire a human language via observation and the first ape to begin to speak of his own accord.</p>
+					    <a href="#" class="btn btn-primary">Continue reading</a>
+				  	</div>
+				  
+				  </div>
+				  
+				</div>
+
+			
 
 
 			<div class="card-deck">
+
 			  <div class="card">
+				<div class="card-header">
+			    	News & Knowledge
+			    </div>
 			    <img class="card-img-top" src="/wordpress/wp-content/themes/askkanzi/assets/images/kanziusesmakeup.png" alt="Card image cap">
 			    <div class="card-body">
 			      <h5 class="card-title">Who is Kanzi?</h5>
@@ -61,6 +71,19 @@
 			    </div>
 			  </div>
 			  <div class="card">
+			  	<div class="card-header">
+			    	News & Knowledge
+			    </div>
+			    <img class="card-img-top" src="/wordpress/wp-content/themes/askkanzi/assets/images/interspeciesinternet.jpg" alt="Interspecies Internet logo">
+			    <div class="card-body">
+			      <h5 class="card-title">Interspecies Internet</h5>
+			      <p class="card-text">Could non-human animals be onboarded to the Internet? Read here about the think-tank to encourage, explore and facilitate interfaces for interspecies communication and approaches for deciphering the communication of non-human animals.</p>
+			    </div>
+			  </div>
+			  <div class="card">
+			  	<div class="card-header">
+			    	News & Knowledge
+			    </div>
 			    <img class="card-img-top" src="/wordpress/wp-content/themes/askkanzi/assets/images/animalssaywhat.png" alt="Card image cap">
 			    <div class="card-body">
 			      <h5 class="card-title">Animals Say What? Podcast</h5>
@@ -68,14 +91,7 @@
 			      
 			    </div>
 			  </div>
-			  <div class="card">
-			    <img class="card-img-top" src="/wordpress/wp-content/themes/askkanzi/assets/images/interspeciesinternet.jpg" alt="Interspecies Internet logo">
-			    <div class="card-body">
-			      <h5 class="card-title">Interspecies Internet</h5>
-			      <p class="card-text">Could non-human animals be onboarded to the Internet? Read here about the think-tank to encourage, explore and facilitate interfaces for interspecies communication and approaches for deciphering the communication of non-human animals.</p>
-			      
-			    </div>
-			  </div>
+			  
 			</div>
 
 			

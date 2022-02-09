@@ -95,6 +95,11 @@ h6 {
 
 .btn-primary {
     color: #fff;
+    background-color: #24361F;
+    border-color: #CBFFEA;
+}
+.btn-primary:hover {
+    background-color:  #A8BA9A;
 }
 
 .form-control {
@@ -225,12 +230,21 @@ h6 {
 
 .footer {
     color: rgba(255, 255, 255, 0.7);
+    background-color: #e5efda;
 }
 
 .footer a {
-    color: #fff
+    color: #06130E;
 }
 
+.footer-disclaimer {
+    color: black;
+}
+.footer-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+
+}
 .content {
     margin-bottom: 35%;
 }
@@ -856,7 +870,8 @@ li a:hover {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-family: Open Sans;
+font-family: 'Oswald', sans-serif;
+
 }
 
 .topnav a:hover {
@@ -887,6 +902,47 @@ li a:hover {
     display: block;
     text-align: center;
   }
+}
+
+.featured {
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px #000000;;
+
+}
+
+.card-header {
+    color: #24361F;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.25;
+    text-decoration: none;
+    background-color: #e5efda;
+
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.featured-image {
+    max-width: 400px;
+    height:  auto;
+    grid-column: 1;
+}
+
+.card-body {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.card-title {
+    font-family: 'Oswald', sans-serif;
+        font-size: 21px;
+    font-weight: 900;
 }
 
 }
