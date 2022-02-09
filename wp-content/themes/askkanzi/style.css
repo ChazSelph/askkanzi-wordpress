@@ -891,6 +891,18 @@ font-family: 'Oswald', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
+    .card-body {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .wrapper {
+          display: grid;
+          grid-template-columns: 1;
+          gap: 10px;
+          grid-auto-rows: 1fr 1fr 1fr;
+        }
+
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -934,11 +946,17 @@ font-family: 'Oswald', sans-serif;
     grid-column: 1;
 }
 
+
 .card-body {
     grid-column-start: 2;
     grid-column-end: 5;
 }
-
+@media screen and (max-width: 600px) {
+    .card-body {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
 .card-title {
     font-family: 'Oswald', sans-serif;
         font-size: 21px;
