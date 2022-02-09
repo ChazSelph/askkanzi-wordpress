@@ -5,9 +5,9 @@
 
 		<article class="content front-page-content px-3 py-5 p-md-5">
 	    <div class='container'>
-			<p class="mt-3 lead">Bonobo Hope Initiative is a 501(c)(3) non-profit organization founded in 2013 <br/>
-				by a collection of scientists, conservationists, philosophers, and artists united <br/>
-				in pursuit of research into, and free expression for, bonobos around the world.
+			<p class="mt-3 lead">Bonobo Hope Initiative is a 501(c)(3) non-profit organization founded in <br/>
+				2013 by a collection of scientists, conservationists, philosophers, and<br/>
+				artists united in pursuit of research into, and free expression for, <br/>bonobos around the world.
 
 
 			<div class="carousel-container">
@@ -66,7 +66,7 @@
 			    <img class="card-img-top" src="/wordpress/wp-content/themes/askkanzi/assets/images/kanziusesmakeup.png" alt="Card image cap">
 			    <div class="card-body">
 			      <h5 class="card-title">Who is Kanzi?</h5>
-			      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			      <p class="card-text">Read about Kanzi's story and lineage, from his birth in 1980 to how he developed his ability to communicate using lexigrams. Learn why this work is important and how we can translate the lessons from the ape language studies for human children with autism.</p>
 			      
 			    </div>
 			  </div>
@@ -74,10 +74,12 @@
 			  	<div class="card-header">
 			    	News & Knowledge
 			    </div>
-			    <img class="card-img-top" src="/wordpress/wp-content/themes/askkanzi/assets/images/interspeciesinternet.jpg" alt="Interspecies Internet logo">
+			    <a href="https://www.interspecies.io/" target="_blank">
+			    	<img class="card-img-top" src="/wordpress/wp-content/themes/askkanzi/assets/images/interspeciesinternet.jpg" alt="Interspecies Internet logo">
+				</a>
 			    <div class="card-body">
 			      <h5 class="card-title">Interspecies Internet</h5>
-			      <p class="card-text">Could non-human animals be onboarded to the Internet? Read here about the think-tank to encourage, explore and facilitate interfaces for interspecies communication and approaches for deciphering the communication of non-human animals.</p>
+			      <p class="card-text">Could non-human animals be onboarded to the Internet? <a href="https://www.interspecies.io/" target="_blank">Read here</a> about the think-tank to encourage, explore and facilitate interfaces for interspecies communication and approaches for deciphering the communication of non-human animals.</p>
 			    </div>
 			  </div>
 			  <div class="card">
@@ -97,14 +99,7 @@
 			
 
 		<article class="front-page-p" >
-			<?php 
-				if(have_posts()){
-					while(have_posts()){
-						the_post();
-						the_content();
-					}
-				}
-			?>
+
 	    </article>
 	    </article>
 
