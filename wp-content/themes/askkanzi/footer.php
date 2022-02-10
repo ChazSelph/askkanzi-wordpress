@@ -5,6 +5,15 @@
         <div class="footer-disclaimer"><i>Bonobo Hope Initiative is registered with the US Internal Revenue Service as a 501[c](3) non-profit organization (EIN# 45-3218086).</i><br><br>© 2013 - 2022 Bonobo Hope Initiative</div>
 
 
+<div class="social-container">
+       <ul class="social-list list-inline py-3 mx-auto">
+        <li class="list-inline-item"><a href="https://twitter.com/askkanzi"><i class="fab fa-twitter fa-fw"></i></a></li>
+        <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCmXSd5yIPNtqxszFSEgJUDA"><i class="fab fa-youtube fa-fw"></i></a></li>
+    </ul> 
+</div>
+
+
+
         <?php  
 
             dynamic_sidebar('footer-1');

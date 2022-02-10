@@ -5,9 +5,9 @@
 
 		<article class="content front-page-content px-3 py-5 p-md-5">
 	    <div class='container'>
-			<p class="mt-3 lead">Bonobo Hope Initiative is a 501(c)(3) non-profit organization founded in <br/>
-				2013 by a collection of scientists, conservationists, philosophers, and<br/>
-				artists united in pursuit of research into, and free expression for, <br/>bonobos around the world.
+			<p class="mt-3 lead">Bonobo Hope Initiative is a 501(c)(3) non-profit organization founded in 
+				2013 by a collection of scientists, conservationists, philosophers, and
+				artists united in pursuit of research into, and free expression for, bonobos around the world.
 
 
 			<div class="carousel-container">
@@ -89,7 +89,7 @@
 			    <img class="card-img-top" src="/wordpress/wp-content/themes/askkanzi/assets/images/animalssaywhat.png" alt="Card image cap">
 			    <div class="card-body">
 			      <h5 class="card-title">Animals Say What? Podcast</h5>
-			      <p class="card-text">Sue Savage-Rumbaugh and Chaz Selph join Anysja Roberts to discuss bonobos, dogs, and the non-human mind.</p>
+			      <p class="card-text">Sue Savage-Rumbaugh and Chaz Selph join Anysja Roberts to discuss bonobos, dogs, and the non-human mind. Listen to the podcast <a href="https://askkanzi.net/2022/01/15/animals-say-what-podcast/" target="_blank"> here</a>.</p>
 			      
 			    </div>
 			  </div>
