@@ -6,13 +6,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bonobo Hope Initiative">
+    <meta name="description" content="Bonobo Hope International">
     <meta name="author" content="https://chazselph.github.io">    
-    <link rel="shortcut icon" href="images/logo.png"> 
 	<link rel="preconnect" href="https://fonts.googleapis.com"> 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600&family=Mitr:wght@300;400&family=Oswald:wght@400;500&family=Recursive:wght@400;500;600&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 	<?php
 
@@ -26,12 +26,12 @@
     <header class="text-center">	            
 	    
 	    <div class="topnav" id="myTopnav">
-			  <a href="#news">Home</a>
-			  <a href="#news">News</a>
-			  <a href="#media">Media</a>
-			  <a href="#help">How to Help</a>
-			  <a href="#contact">Contact</a>
-			  <a href="#about">About</a>
+			  <a href="<?php echo get_site_url(); ?>/">Home</a>
+			  <a href="">Articles</a>
+			  <a href="<?php echo get_site_url(); ?>/media">Media</a>
+			  <a href="page-donations.php">How to Help</a>
+			  <a href="<?php echo get_site_url(); ?>/contact">Contact</a>
+			  <a href="<?php echo get_site_url(); ?>/about">About</a>
 			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 			    <i class="fa fa-bars"></i>
 			  </a>

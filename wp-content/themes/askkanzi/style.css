@@ -62,10 +62,12 @@ This theme, like WordPress, is licensed under the GPL.
 
 html {
     line-height: 1.15;
+    height: 100%;
 }
 body {
     color: var(--secondary);
     overflow-x: hidden;
+    height: 100%;
 }
 a{
     color: var(--pink);
@@ -809,6 +811,7 @@ div.comment:first-of-type {
     font-weight: 300;
     text-align: center;
     margin-bottom: 15px;
+    font-size: 21px;
 }
 
 
@@ -818,7 +821,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #fff;
+
 }
 
 li {
@@ -901,12 +904,12 @@ font-family: 'Oswald', sans-serif;
         grid-row-end: 3;
     }
 
-    .wrapper {
+/*    .wrapper {
           display: grid;
           grid-template-columns: 1;
           gap: 10px;
           grid-auto-rows: minmax(300px, 1fr)
-        }
+        }*/
 
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
@@ -938,20 +941,20 @@ font-family: 'Oswald', sans-serif;
 
 }
 
-.wrapper {
+/*.wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-}
+}*/
 
-.featured-image {
+/*.featured-image {
     height:  auto;
     grid-column: 1;
     padding-top: 15px;
     padding-left: 15px;
 }
-
+*/
 .card-body {
     grid-column-start: 2;
     grid-column-end: 5;
@@ -960,17 +963,18 @@ font-family: 'Oswald', sans-serif;
     font-size: 16px;
 }
 @media screen and (max-width: 600px) {
+
+    .media-container {
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
     .card-body {
         grid-column-start: 1;
         grid-column-end: 1;
         grid-row-start: 1;
         grid-row-end: 4;
-    }
-    .featured-image {
-    grid-row: 4;
-    max-width: 312px;
-    padding-top: 0;
-    padding-left: 0;
     }
 
 }
@@ -986,7 +990,77 @@ font-family: 'Oswald', sans-serif;
 
 }
 .card-text {
-    width: 75%;
+    width: 100%;
 }
 
+.card-deck {
+    margin-bottom: 25px;
+}
+
+
+.featured-image {
+    max-width: 100%;
+    padding-right: 25px;
+}
+
+.blockquote {
+    color: #fff;
+
+  position: absolute; /* Position the background text */
+  bottom: -15px; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+
+  width: 100%; /* Full width */
+  padding: 1px; /* Some padding */
+}
+
+.blockquote-footer {
+    color: #fff;
+}
+
+
+
+.feature-p {
+    text-align: center;
+}
+
+.board-header {
+    text-align:  center;
+}
+
+
+.row {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right:  15px;
+    margin-bottom: 25px;
+}
+
+.about-paragraph {
+    font-family: "AvenirBook",sans-serif;
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 41px;
+
+}
+
+.wp-container-620bb9b042eb9 {
+    background-color: #e5efda;
+}
+
+.media-container {
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.media-paragraph {
+    margin-top: 25px;
+    font-size: 22px;
+}
+
+.pan-image {
+    height: auto;
+    max-width: 500px;
 }
