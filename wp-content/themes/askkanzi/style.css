@@ -79,7 +79,8 @@ h4,
 h5,
 h6 {
     color: var(--gray-dark);
-    font-weight: bold;
+    font-weight: 800 !important;
+        font-family: 'Roboto Mono', monospace;
 }
 p {
     font-size: 14px;
@@ -1010,7 +1011,7 @@ font-family: 'Oswald', sans-serif;
 .card-title {
     font-family: 'Oswald', sans-serif;
     font-size: 21px;
-    font-weight: 200;
+    font-weight: 200 !important;
 }
 
 .social-container {
@@ -1206,4 +1207,27 @@ font-family: 'Oswald', sans-serif;
 
 
 
+.mc4wp-alert {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
 
+
+.about-p {
+    display: block;
+    background-color: #e9ecef;
+    font-size: 22px;
+    line-height: 38px;
+    font-family:  'mundo sans pro book',sans-serif;
+    width: 75%;
+    border-radius: 16px;
+padding-top: 48px;
+padding-right: 56px;
+padding-bottom: 48px;
+padding-left: 56px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+
+}

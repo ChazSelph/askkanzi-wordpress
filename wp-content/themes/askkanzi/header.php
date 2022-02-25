@@ -14,6 +14,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600&family=Mitr:wght@300;400&family=Oswald:wght@400;500&family=Recursive:wght@400;500;600&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
 
 	<?php
 
