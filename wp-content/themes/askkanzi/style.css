@@ -1146,10 +1146,10 @@ font-family: 'Oswald', sans-serif;
 
   .parallax2 {
   /* The image used */
-  background-image: url("/wordpress/wp-content/themes/askkanzi/assets/images/kanzi-lights-fire-vector.png");
+  background-image: url("/wordpress/wp-content/themes/askkanzi/assets/images/originalkeyboard.png");
 
   /* Set a specific height */
-  min-height: 250px;
+  min-height: 400px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -1203,6 +1203,8 @@ font-family: 'Oswald', sans-serif;
 
 .card {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    overflow: auto;
+    max-height: 400px;
 }
 
 
@@ -1222,12 +1224,35 @@ font-family: 'Oswald', sans-serif;
     font-family:  'mundo sans pro book',sans-serif;
     width: 75%;
     border-radius: 16px;
-padding-top: 48px;
-padding-right: 56px;
-padding-bottom: 48px;
-padding-left: 56px;
+    padding-top: 48px;
+    padding-right: 56px;
+    padding-bottom: 48px;
+    padding-left: 56px;
     margin-top: 25px;
     margin-bottom: 25px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
 
+
+}
+
+.pan-header {
+    float: right;
+    color: black;
+    font-size: 30px;
+}
+.pan-paragraph {
+    float: right;
+    font-size: 18px;
+    text-align: right;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    width: 70%;
+}
+.pan-btn {
+
+    width: 20%;
+}
+.parallax2-container {
+    display: block;
+    float: right;
 }

@@ -83,9 +83,8 @@
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="David Olisar" style="width:100%">
       <div class="container">
         <h3>Mr. David Olisar</h3>
-<!--         <p class="title">Professor of Biology, Emerita</p>
-        <p>Washington University</p> -->
         <p>Naperville, Illinois</p>
+        <p>Dave spent many years traveling the world as a telecommunication industry executive.  He found that as telecommunication networks were introduced and installed in remote parts of the world, the habitat for other species was disappearing.  Now retired, he wants to do his part in securing the habitat and way of life of human’s closest relative, Bonobo, an endangered great ape.  Dave attended graduate school at Carnegie Mellon University where he obtained his Master’s Degree in Computer and Electrical Engineering in 1980.</p>
       </div>
     </div>
   </div>

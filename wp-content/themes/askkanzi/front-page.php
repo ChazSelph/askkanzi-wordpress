@@ -87,21 +87,22 @@
 
 		<?php echo do_shortcode('[mc4wp_form]'); ?>
 
-			<div class="px-4 pt-5 my-5 text-center border-bottom">
-			    <h1 class="display-4">Pan Survival in the 21st Century</h1>
-			    <div class="mx-auto">
-			      <p class="lead mb-4">Chimpanzees (Pan troglodytes) and bonobos (Pan paniscus) should be added to the Homo genus and given the right to freedom and independence, argue evolutionary anthropologist Itai Roffman and his colleagues.</p>
-			      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-			        <a class="btn btn-primary btn-lg" href="http://www.pontecorboli.com/digital/OpenAccess/Roffman_Pan.pdf" target="_blank" role="button"> Read here</a>
-			      </div>
-			    </div>
-			    <div class="overflow-hidden" style="max-height: 30vh;">
-			      <div class="container px-5">
-			        <img src="/wordpress/wp-content/themes/askkanzi/assets/images/basickeyboard.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" loading="lazy" width="700" height="600">
-			      </div>
-			    </div>
-			</div>
+			<div class="parallax2">
+				<div class="parallax2-container">
+					<div class="px-4 pt-5 my-5">
+						<div class="row">
+							<h1 class="pan-header">Pan Survival in the 21st Century</h1>
+						</div>
+					    <div class="row">
+					    	<p class="pan-paragraph">Chimpanzees (Pan troglodytes) and bonobos (Pan paniscus) should be added to the Homo genus and given the right to freedom and independence, argue evolutionary anthropologist Itai Roffman and his colleagues.</p>
+					    </div>
+				     	<div class="row">
+				     		<a class="btn btn-primary btn-lg pan-btn" href="http://www.pontecorboli.com/digital/OpenAccess/Roffman_Pan.pdf" target="_blank" role="button"> Read here</a>
+				     	</div>
+					</div>
+				</div>
 
+			</div>
 
 	    </article>
 
