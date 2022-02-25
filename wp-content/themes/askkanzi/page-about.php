@@ -3,11 +3,15 @@
 ?>   
 
 
-<p class="about-paragraph">Bonobo Hope Initiative is a 501(c)(3) dedicated to fostering understanding through interaction between all apes, human and nonhuman. Human and nonhuman apes share nearly 99% of their DNA. Physical differences between them represent recent adaptations to different environments, are epigenetic in nature, and can be altered environmentally. 
 
-  <div class="parallax"></div> 
 
-<p class="about-paragraph">We believe all apes, human and nonhuman, are conscious of being conscious. All are able to acquire the capacity to consciously take charge of their own behavior and to inhibit aggession and emotion through self-control. Development of infant apes is highly plastic, adaptive, and culturally determined. Behavioral differences between us represent cultural differences that can be altered through linguistic dialogue. Through dialogue and interaction, human and nonhuman apes have come to know and trust one another, both in captivity and in the field.</p>
+    <h1 class="display-4 fw-bold">About Us</h1>
+    <div class="container">
+      <p class="">Bonobo Hope Initiative is a 501(c)(3) dedicated to fostering understanding through interaction between all apes, human and nonhuman. Human and nonhuman apes share nearly 99% of their DNA. Physical differences between them represent recent adaptations to different environments, are epigenetic in nature, and can be altered environmentally. </p>
+
+      <div class="parallax"></div>
+      <p class="">We believe all apes, human and nonhuman, are conscious of being conscious. All are able to acquire the capacity to consciously take charge of their own behavior and to inhibit aggession and emotion through self-control. Development of infant apes is highly plastic, adaptive, and culturally determined. Behavioral differences between us represent cultural differences that can be altered through linguistic dialogue. Through dialogue and interaction, human and nonhuman apes have come to know and trust one another, both in captivity and in the field.</p>
+    </div>
 
 <h1 class="board-header">Meet the Board</h1>
 <hr>
@@ -50,14 +54,13 @@
 </div>
 
   <div class="row">
-  	<div class="col-sm">
+  	  <div class="col-sm">
     <div class="card">
-      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Ursula Goodenough" style="width:100%">
+      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Sally Coxe" style="width:100%">
       <div class="container">
-        <h3>Dr. Ursula Goodenough</h3>
-        <p class="title">Professor of Biology, Emerita</p>
-        <p>Washington University</p>
-        <p>St. Louis, MO</p>
+        <h3>Ms. Sally Coxe</h3>
+        <p class="title">President, Bonobo Conservation Initiative</p>
+        <p>Washington DC – Kinshasa, DRC</p>
       </div>
     </div>
   </div>
@@ -135,14 +138,13 @@
   </div>
   <div class="col-sm">
     <div class="card">
-      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Sally Coxe" style="width:100%">
-      <div class="container">
-        <h3>Ms. Sally Coxe</h3>
-        <p class="title">President, Bonobo Conservation Initiative</p>
-        <p>Washington DC – Kinshasa, DRC</p>
+      <!-- <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Sally Coxe" style="width:100%">
+      <div class="container"> -->
+        <h3></h3>
+        <p class="title"></p>
+        <p></p>
       </div>
     </div>
-  </div>
   <div class="col-sm">
     <div class="card">
       <!-- <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Sally Coxe" style="width:100%">

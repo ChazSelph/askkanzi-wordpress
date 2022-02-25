@@ -81,7 +81,11 @@ h6 {
     color: var(--gray-dark);
     font-weight: bold;
 }
-
+p {
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 .btn {
     font-weight: bold;
     padding: 10px;
@@ -247,10 +251,11 @@ h6 {
 
 .footer-disclaimer {
     color: black;
+    font-size: 15px;
 }
 .footer-title {
     font-family: 'Oswald', sans-serif;
-    font-size: 1.2rem;
+    font-size: 22px;
 
 }
 .content {
@@ -827,11 +832,12 @@ div.comment:first-of-type {
     background-color: transparent;
     font-family:  'mundo sans pro book',sans-serif;
     line-height: 41px;
-    font-weight: 900;
     text-align: center;
     margin-bottom: 15px;
     font-size: 24px;
     text-shadow:  1px 1px black;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 2;
 }
 
 
@@ -1141,10 +1147,10 @@ font-family: 'Oswald', sans-serif;
 
 .parallax {
   /* The image used */
-  background-image: url("/wordpress/wp-content/themes/askkanzi/assets/images/kanzi-lights-fire-vector.png");
+  background-image: url("/wordpress/wp-content/themes/askkanzi/assets/images/teco-touches-ipad.png");
 
   /* Set a specific height */
-  min-height: 250px;
+  min-height: 300px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;

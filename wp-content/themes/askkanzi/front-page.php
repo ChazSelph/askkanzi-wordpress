@@ -20,7 +20,10 @@
 				  <p class="lead">Dr. Sue Savage-Rumbaugh began working with apes over fifty years ago at the University of Oklahoma.</p>
 				  <hr class="my-4">
 				  <p class="feature-p">Read about her life's work and what comes next.</p>
-				    <a class="btn btn-primary btn-lg" href="https://issuu.com/unionintavocats/docs/ji-2021-1-bat/s/12540281" target="_blank" role="button">Learn more</a>
+				  <div class="container">
+				  	<a class="btn btn-primary btn-lg" href="https://issuu.com/unionintavocats/docs/ji-2021-1-bat/s/12540281" target="_blank" role="button">Learn more</a>
+				  </div>
+				    
 			</div>
 
 
