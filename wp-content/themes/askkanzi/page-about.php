@@ -5,6 +5,8 @@
 
 <p class="about-paragraph">Bonobo Hope Initiative is a 501(c)(3) dedicated to fostering understanding through interaction between all apes, human and nonhuman. Human and nonhuman apes share nearly 99% of their DNA. Physical differences between them represent recent adaptations to different environments, are epigenetic in nature, and can be altered environmentally. 
 
+  <div class="parallax"></div> 
+
 <p class="about-paragraph">We believe all apes, human and nonhuman, are conscious of being conscious. All are able to acquire the capacity to consciously take charge of their own behavior and to inhibit aggession and emotion through self-control. Development of infant apes is highly plastic, adaptive, and culturally determined. Behavioral differences between us represent cultural differences that can be altered through linguistic dialogue. Through dialogue and interaction, human and nonhuman apes have come to know and trust one another, both in captivity and in the field.</p>
 
 <h1 class="board-header">Meet the Board</h1>

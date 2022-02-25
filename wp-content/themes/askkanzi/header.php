@@ -12,6 +12,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600&family=Mitr:wght@300;400&family=Oswald:wght@400;500&family=Recursive:wght@400;500;600&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 	<?php
@@ -52,6 +53,3 @@ function myFunction() {
 
     </header>
         <div class="main-wrapper">
-	    <header class="page-title text-center py-5">
-			<h1 class="heading">Bonobo Hope Initiative</h1>
-		</header>
