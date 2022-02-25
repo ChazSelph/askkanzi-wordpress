@@ -922,19 +922,21 @@ font-family: 'Oswald', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
+
+
+    .email-field {
+    width: 90%;
+        padding: 15px;
+        float: unset;
+    }
+
+
     .card-body {
         grid-column-start: 1;
         grid-column-end: 1;
         grid-row-start: 1;
         grid-row-end: 3;
     }
-
-/*    .wrapper {
-          display: grid;
-          grid-template-columns: 1;
-          gap: 10px;
-          grid-auto-rows: minmax(300px, 1fr)
-        }*/
 
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
@@ -965,21 +967,6 @@ font-family: 'Oswald', sans-serif;
     background-color: #e5efda;
 
 }
-
-/*.wrapper {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}*/
-
-/*.featured-image {
-    height:  auto;
-    grid-column: 1;
-    padding-top: 15px;
-    padding-left: 15px;
-}
-*/
 .card-body {
     grid-column-start: 2;
     grid-column-end: 5;
@@ -987,7 +974,24 @@ font-family: 'Oswald', sans-serif;
     line-height: 1.5;
     font-size: 16px;
 }
+
+
 @media screen and (max-width: 600px) {
+
+        .email-field {
+    width: 90%;
+    padding: 15px;
+    float: unset;
+}
+
+
+
+    .signup-btn {
+        width: 90%;
+        margin: auto;
+        float: unset;
+    }
+
 
     .media-container {
         margin-left: 10px;
@@ -1006,7 +1010,7 @@ font-family: 'Oswald', sans-serif;
 .card-title {
     font-family: 'Oswald', sans-serif;
     font-size: 21px;
-    font-weight: 900;
+    font-weight: 200;
 }
 
 .social-container {
@@ -1030,7 +1034,6 @@ font-family: 'Oswald', sans-serif;
 
 .blockquote {
     color: #fff;
-
   position: absolute; /* Position the background text */
   bottom: -15px; /* At the bottom. Use top:0 to append it to the top */
   background: rgb(0, 0, 0); /* Fallback color */
@@ -1043,8 +1046,6 @@ font-family: 'Oswald', sans-serif;
 .blockquote-footer {
     color: #fff;
 }
-
-
 
 .feature-p {
     text-align: center;
@@ -1062,14 +1063,6 @@ font-family: 'Oswald', sans-serif;
     margin-bottom: 25px;
 }
 
-.about-paragraph {
-    font-family: "AvenirBook",sans-serif;
-    font-size: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
-    line-height: 41px;
-
-}
 
 .wp-container-620bb9b042eb9 {
     background-color: #e5efda;
@@ -1090,22 +1083,14 @@ font-family: 'Oswald', sans-serif;
     max-width: 500px;
 }
 
-
-
 .bg {
     height: 100%;
-  width: 100%; 
-
-  opacity: 0.9;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgba(0, 0, 0, 0.5);
-
-  /* Add the blur effect */
-/*  filter: blur(8px);
-  -webkit-filter: blur(8px);*/
+      width: 100%; 
+      opacity: 0.9;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero-text {
@@ -1121,7 +1106,7 @@ font-family: 'Oswald', sans-serif;
     margin: 25px;
 }
 
-/* Bottom right text */
+
 .text-block {
   position: absolute;
   top: 150px;
@@ -1137,7 +1122,7 @@ font-family: 'Oswald', sans-serif;
     font-weight: bold;
     color: white;
     font-family: 'Fjalla One', sans-serif;
-    text-shadow: 2px 1px black;
+    text-shadow: 2px 2px black;
     position: relative;
 }
 
@@ -1196,3 +1181,29 @@ font-family: 'Oswald', sans-serif;
     width: 10%;
     margin: auto;
 }
+
+.mc4wp-form-144 {
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.email-field {
+    width: 75%;
+    padding: 15px;
+    float: right;
+}
+
+.signup-btn {
+    width: 55%;
+    margin: auto;
+}
+
+.card {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+
+

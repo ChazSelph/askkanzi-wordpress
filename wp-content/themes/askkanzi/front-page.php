@@ -85,9 +85,10 @@
 			</div>
 
 
+		<?php echo do_shortcode('[mc4wp_form]'); ?>
 
 			<div class="px-4 pt-5 my-5 text-center border-bottom">
-			    <h1 class="display-4 fw-bold">Pan Survival in the 21st Century</h1>
+			    <h1 class="display-4">Pan Survival in the 21st Century</h1>
 			    <div class="mx-auto">
 			      <p class="lead mb-4">Chimpanzees (Pan troglodytes) and bonobos (Pan paniscus) should be added to the Homo genus and given the right to freedom and independence, argue evolutionary anthropologist Itai Roffman and his colleagues.</p>
 			      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
@@ -100,7 +101,6 @@
 			      </div>
 			    </div>
 			</div>
-
 
 
 	    </article>
