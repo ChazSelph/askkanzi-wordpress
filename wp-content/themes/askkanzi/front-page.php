@@ -20,8 +20,8 @@
 				  <p class="lead">Dr. Sue Savage-Rumbaugh began working with apes over fifty years ago at the University of Oklahoma.</p>
 				  <hr class="my-4">
 				  <p class="feature-p">Read about her life's work and what comes next.</p>
-				  <div class="container">
-				  	<a class="btn btn-primary btn-lg" href="https://issuu.com/unionintavocats/docs/ji-2021-1-bat/s/12540281" target="_blank" role="button">Learn more</a>
+				  <div class="sue-container">
+				  	<a class="btn btn-primary btn-lg btn-sue" href="https://issuu.com/unionintavocats/docs/ji-2021-1-bat/s/12540281" target="_blank" role="button">Learn more</a>
 				  </div>
 				    
 			</div>
@@ -64,8 +64,8 @@
 			    <div class="card-body">
 			      <h5 class="card-title">Material Practices of Ape Language</h5>
 			      <hr>
-			      <p class="card-text">William Mintz Fields, Par Segerdahl, and Sue Savage-Rumbaugh present Cambridge Handbook of Sociocultural Psychology. </p>
-			      <a class="btn btn-primary btn-lg" href="https://www.interspecies.io/" target="_blank" role="button">Learn more</a>
+			      <p class="card-text">William Mintz Fields, Par Segerdahl, and Sue Savage-Rumbaugh present an analysis of the material practices of ape language in the Cambridge Handbook of Sociocultural Psychology. </p>
+			      <a class="btn btn-primary btn-lg" href="https://www.interspecies.io/" target="_blank" role="button">Read article</a>
 			    </div>
 			  </div>
 
@@ -89,7 +89,7 @@
 
 			<div class="parallax2">
 				<div class="parallax2-container">
-					<div class="px-4 pt-5 my-5">
+					<div class="container px-4 pt-5 my-5">
 						<div class="row">
 							<h1 class="pan-header">Pan Survival in the 21st Century</h1>
 						</div>

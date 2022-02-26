@@ -6,16 +6,7 @@
 
 
     <h1 class="display-4">About Us</h1>
-    <div class="container">
-
-      <p class="about-p mx-auto">Bonobo Hope International is a 501(c)(3) dedicated to fostering understanding through interaction between all apes, human and nonhuman. Human and nonhuman apes share nearly 99% of their DNA. Physical differences between them represent recent adaptations to different environments, are epigenetic in nature, and can be altered environmentally. </p>
-
-      <div class="parallax"></div>
-
-
-      <p class="about-p mx-auto">We believe all apes, human and nonhuman, are conscious of being conscious. All are able to acquire the capacity to consciously take charge of their own behavior and to inhibit aggession and emotion through self-control. Development of infant apes is highly plastic, adaptive, and culturally determined. Behavioral differences between us represent cultural differences that can be altered through linguistic dialogue. Through dialogue and interaction, human and nonhuman apes have come to know and trust one another, both in captivity and in the field.</p>
-    </div>
-
+  
 <h1 class="board-header">Meet the Board</h1>
 <hr>
 
@@ -105,12 +96,13 @@
   </div>
     <div class="col-sm">
     <div class="card">
-      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Itai Roffman" style="width:100%">
+      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/itai-roffman-profile.png" alt="Itai Roffman" style="width:100%">
       <div class="container">
         <h3>Dr. Itai Roffman</h3>
-        <p class="title">Department of Sociology and Anthropology</p>
+        <p class="title">Lecturer and Researcher</p>
         <p>Max Stern Yezreel Valley College</p>
         <p>Israel</p>
+        <p>Dr. Roffman, an evolutionary anthropologist, is a lecturer and researcher at the Yezreel Valley College, Israel. In 2017 he was awarded a PhD for his dissertation entitled: “Studying Suite of Early-Hominin Traits in Pan: Cultural and Behavioral Evidence in Support of their Reclassification as Early-Hominins", under the supervision of evolutionist Prof. Eviatar Nevo, and paleontologist/archeologist Prof. Avraham Ronen. Itai received his MA in physical/biological anthropology from Iowa State University, USA (thesis titled: "Are bicultural bonobos able to recognize iconic representations and produce referential signs in human cultural terms?"). </p>
       </div>
     </div>
   </div>
@@ -135,6 +127,7 @@
         <p class="title">Professor of Linguistics and Media Communication</p>
         <p>Agder University College</p>
         <p>Kristiansand, Norway</p>
+        <p>Paul J. Thibault is professor in linguistics and communication studies in the Faculty of Humanities and Education, University of Agder, Kristiansand, Norway. In 2021, he published two volumes on <a href="https://www.routledge.com/Distributed-Languaging-Affective-Dynamics-and-the-Human-Ecology-Volume/Thibault/p/book/9780815379539" target="_blank">Distributed Languaging, Affective Dynamics, and the Human Ecology.</a> He has held academic posts in Australia, China, Italy, and Hong Kong. His research interests and many publications are in the areas of applied and general linguistics, development, distributed language and cognition, graphic trace-making, human-animal interaction, human interactivity, learning, multimodality, narrative, social theory, learning theory and teaching and learning in higher education, philosophy of language, philosophy of mind, and systemic-functional linguistics. </p>
       </div>
     </div>
   </div>
@@ -257,10 +250,22 @@
 
 
 
+<div class="container">
+
+      <p class="about-p mx-auto">Bonobo Hope International is a 501(c)(3) dedicated to fostering understanding through interaction between all apes, human and nonhuman. Human and nonhuman apes share nearly 99% of their DNA. Physical differences between them represent recent adaptations to different environments, are epigenetic in nature, and can be altered environmentally. </p>
+
+</div>
 
 
+<div class="parallax"></div>
 
-	    
+<div class="container">
+        <p class="about-p mx-auto">We believe all apes, human and nonhuman, are conscious of being conscious. All are able to acquire the capacity to consciously take charge of their own behavior and to inhibit aggession and emotion through self-control. Development of infant apes is highly plastic, adaptive, and culturally determined. Behavioral differences between us represent cultural differences that can be altered through linguistic dialogue. Through dialogue and interaction, human and nonhuman apes have come to know and trust one another, both in captivity and in the field.</p>
+</div>
+
+          
+
+
 <?php 
 	get_footer();
 ?>
