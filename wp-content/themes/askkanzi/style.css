@@ -1219,6 +1219,7 @@ font-family: 'Oswald', sans-serif;
 .about-p {
     display: block;
     background-color: #e9ecef;
+    color: black;
     font-size: 22px;
     line-height: 38px;
     font-family:  'mundo sans pro book',sans-serif;
@@ -1268,4 +1269,33 @@ font-family: 'Oswald', sans-serif;
 
 .btn-sue {
     width: 25%;
+}
+
+
+#get-in-touch {
+
+    font-size: 42px;
+}
+
+#contact-form-comment-g6770-message {
+    width: 90%;
+}
+
+.grunion-field-label {
+    width: 20%;
+    font-size: 16px;
+    font-weight: 200;
+}
+#g6770-name, #g6770-email {
+    padding: 10px;
+    margin: 5px;
+    width: 35%;
+}
+
+.btn-contact {
+    width: 25%;
+}
+.press-header {
+    font-size:  42px;
+    text-align: center;
 }

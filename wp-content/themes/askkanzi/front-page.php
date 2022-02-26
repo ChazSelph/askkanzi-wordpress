@@ -30,7 +30,7 @@
 			<div class="card-deck">
 			  <div class="card">
 				<div class="card-header">
-			    	News & Knowledge
+			    	<i class="fa-solid fa-newspaper"></i> News & Knowledge
 			    </div>
 			    <img class="card-img-top" src="/wordpress/wp-content/themes/askkanzi/assets/images/kanziusesmakeup.png" alt="Card image cap">
 			    <div class="card-body">
@@ -43,7 +43,7 @@
 
 			  <div class="card">
 			  	<div class="card-header">
-			    	News & Knowledge
+			    	<i class="fa-solid fa-newspaper"></i> News & Knowledge
 			    </div>
 			    <a href="https://www.interspecies.io/" target="_blank">
 			    	<img class="card-img-top" src="/wordpress/wp-content/themes/askkanzi/assets/images/interspeciesinternet.jpg" alt="Interspecies Internet logo">
@@ -58,7 +58,7 @@
 
 			  <div class="card">
 			  	<div class="card-header">
-			    	Scientific Research
+			    	<i class="fa-solid fa-book"></i> Scientific Research
 			    </div>
 			    <img class="card-img-top" src="https://www.cambridge.org/core/services/aop-file-manager/file/594a50baaab423c41bce222e" alt="Card image cap">
 			    <div class="card-body">
@@ -71,7 +71,7 @@
 
 			  <div class="card">
 			  	<div class="card-header">
-			    	Audiovisual
+			    	<i class="fa-regular fa-file-audio"></i> Audiovisual
 			    </div>
 			    <img class="card-img-top" src="/wordpress/wp-content/themes/askkanzi/assets/images/animalssaywhat.png" alt="Card image cap">
 			    <div class="card-body">

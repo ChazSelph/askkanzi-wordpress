@@ -30,8 +30,8 @@
 	    <div class="topnav" id="myTopnav">
 			  <a href="<?php echo get_site_url(); ?>/">Home</a>
 			  <a href="">Articles</a>
-			  <a href="<?php echo get_site_url(); ?>/media">Media</a>
-			  <a href="page-donations.php">How to Help</a>
+			  <a href="<?php echo get_site_url(); ?>/media">Press</a>
+			  <a href="<?php echo get_site_url(); ?>/donations">How to Help</a>
 			  <a href="<?php echo get_site_url(); ?>/contact">Contact</a>
 			  <a href="<?php echo get_site_url(); ?>/about">About</a>
 			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">

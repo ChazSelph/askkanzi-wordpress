@@ -248,7 +248,34 @@
   </div>
 </div>
 
-
+<h1 class="board-header">Legal Representation</h1>
+<hr>
+<div class="row">
+    <div class="col-sm">
+    <div class="card">
+      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/sheila-profile.png" alt="Sheila Knoploh-Odole" style="width:100%">
+      <div class="container">
+        <h3>Sheila Knoploh-Odole</h3>
+        <p class="title">Professor of Comparative Literature, Romance Studies & Cognitive Science</p>
+        <p>Director of French Studies</p>
+        <p>Cornell University</p>
+        <p>Ithaca, NY</p>
+      </div>
+    </div>
+  </div>
+      <div class="col-sm">
+    <div class="card">
+      <img src="" alt="Sheila Knoploh-Odole" style="width:100%">
+    </div>
+  </div>
+      <div class="col-sm">
+    <div class="card">
+      <img src="" alt="Sheila Knoploh-Odole" style="width:100%">
+      <div class="container">
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="container">
 
