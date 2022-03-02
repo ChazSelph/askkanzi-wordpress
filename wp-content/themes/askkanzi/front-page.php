@@ -85,6 +85,21 @@
 			</div>
 
 
+
+
+<div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="/wordpress/wp-content/themes/askkanzi/assets/images/legal.png" alt="" width="72" height="57">
+    <h1 class="display-5 fw-bold">Why BHI is Filing a Petition</h1>
+    <div class="col-md mx-auto">
+      <p class="lead-petition mb-4">The future of the Matata family of bonobos and research hangs in the balance, and thus BHI has decided to file a petition in Iowa State Court.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a  class="btn btn-primary btn-lg px-4 gap-3" href="<?php echo get_site_url(); ?>/why-bhi-is-filing-a-petition">Read here</a>
+      </div>
+    </div>
+  </div>
+
+
+
 		<?php echo do_shortcode('[mc4wp_form]'); ?>
 
 			<div class="parallax2">
@@ -97,12 +112,17 @@
 					    	<p class="pan-paragraph">Chimpanzees (Pan troglodytes) and bonobos (Pan paniscus) should be added to the Homo genus and given the right to freedom and independence, argue evolutionary anthropologist Itai Roffman and his colleagues.</p>
 					    </div>
 				     	<div class="row">
-				     		<a class="btn btn-primary btn-lg pan-btn" href="http://www.pontecorboli.com/digital/OpenAccess/Roffman_Pan.pdf" target="_blank" role="button"> Read here</a>
+				     		<a class="btn btn-primary btn-lg" href="http://www.pontecorboli.com/digital/OpenAccess/Roffman_Pan.pdf" target="_blank" role="button"> Read here</a>
 				     	</div>
 					</div>
 				</div>
 
 			</div>
+
+
+
+
+
 
 	    </article>
 

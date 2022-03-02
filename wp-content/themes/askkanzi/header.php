@@ -16,6 +16,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/43b9ad071c.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<?php
 
 	wp_head();
@@ -25,6 +28,8 @@
 </head> 
 
 <body>
+
+
     <header class="text-center">	            
 	    
 	    <div class="topnav" id="myTopnav">
@@ -33,7 +38,15 @@
 			  <a href="<?php echo get_site_url(); ?>/media">Press</a>
 			  <a href="<?php echo get_site_url(); ?>/donations">How to Help</a>
 			  <a href="<?php echo get_site_url(); ?>/contact">Contact</a>
-			  <a href="<?php echo get_site_url(); ?>/about">About</a>
+			  
+				<div class="dropdown">
+				    <a class="dropbtn" href="<?php echo get_site_url(); ?>/about">About</a> 
+				      <i class="fa fa-caret-down"></i>
+				    <div class="dropdown-content">
+				      <a href="<?php echo get_site_url(); ?>/board">Meet the Board</a>
+				      <a href="#">Our Story</a>
+				    </div>
+				  </div> 
 			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 			    <i class="fa fa-bars"></i>
 			  </a>
@@ -53,4 +66,9 @@ function myFunction() {
 
 
     </header>
+
+
+
+
+
         <div class="main-wrapper">
