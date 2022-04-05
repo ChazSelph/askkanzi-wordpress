@@ -8,11 +8,11 @@
 <div class="row">
   <div class="col-sm">
     <div class="card">
-      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Sue Savage-Rumbaugh" style="width:100%">
+      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/sue-savage-rumbaugh-profile.jpg" alt="Sue Savage-Rumbaugh" style="width:100%">
       <div class="container">
         <h3>Dr. Sue Savage-Rumbaugh</h3>
         <p class="title">Chair Bonobo Hope</p>
-        <p>Des Moines, IA</p>
+        <p>Des Moines, Iowa</p>
       </div>
     </div>
   </div>
@@ -24,7 +24,7 @@
         <h3>Dr. Nancy Howell</h3>
         <p class="title">Professor of Theology and Religion</p>
         <p>Saint Paul School of Theology</p>
-        <p>Kansas City, MO</p>
+        <p>Kansas City, Missouri</p>
       </div>
     </div>
   </div>
@@ -43,13 +43,17 @@
 </div>
 
   <div class="row">
-  	  <div class="col-sm">
+      <div class="col-sm">
     <div class="card">
-      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Sally Coxe" style="width:100%">
+      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/sally-coxe-profile.png" alt="Sally Coxe" style="width:100%;">
       <div class="container">
         <h3>Ms. Sally Coxe</h3>
         <p class="title">President, Bonobo Conservation Initiative</p>
         <p>Washington DC – Kinshasa, DRC</p>
+        <p>Sally is president and co-founder of the Bonobo Conservation Initiative. Known as “Mama Bonobo,” Sally has worked tirelessly for over 20 years to protect bonobos, preserve the Congo rainforest, and empower Congolese communities as leaders in conservation. 
+
+        </p>
+        <p>She has led and managed the growing organization, including field operations in the DRC and development and outreach efforts in the USA and internationally. Since her first trip to the DRC (then Zaire) in 1994, Sally has been investigating local folklore and traditions regarding the relationship between humans and bonobos. This focus on indigenous wisdom and culture shaped and continues to inform BCI’s holistic conservation model. Under Sally’s leadership, BCI collaborates with partner organizations, the DRC government, and local communities to manifest their common vision for the Bonobo Peace Forest. This expanding network of community managed forests now includes two officially established nature reserves, spanning 9 million acres, and additional protected areas in development. Sally became fascinated with bonobos while Senior Copywriter at the National Geographic Society. She is a Phi Beta Kappa graduate of Williams College with honors in Psychology.</p>
       </div>
     </div>
   </div>
@@ -85,7 +89,7 @@
         <h3>Dr. Doug Pernikoff, MBA</h3>
 <!--         <p class="title">Professor of Biology, Emerita</p>
         <p>Washington University</p> -->
-        <p>St. Louis, MO</p>
+        <p>St. Louis, Missouri</p>
       </div>
     </div>
   </div>
@@ -103,12 +107,13 @@
   </div>
     <div class="col-sm">
     <div class="card">
-      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Shane Savage-Rumbaugh" style="width:100%">
+      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/shane-savage-rumbaugh-profile.png" alt="Shane Savage-Rumbaugh" style="width:100%">
       <div class="container">
         <h3>Shane Savage-Rumbaugh</h3>
         <p class="title">Professor of Visual and Performing Arts</p>
         <p>Stonehill College</p>
-        <p>Easton, MA</p>
+        <p>Easton, Massachusettes</p>
+        <p>Shane was born in Missouri, but spent most of his childhood in Atlanta, Georgia. He received his Bachelor of Fine Arts from the School of the Art Institute of Chicago and his Master of Fine Arts from Cornell University. Shane is an active studio artist, exhibiting his work as well as attending Artist-in-Residence programs and lectures. Shane has been at Stonehill since 1997.</p>
       </div>
     </div>
   </div>
@@ -116,7 +121,7 @@
 <div class="row">
     <div class="col-sm">
     <div class="card">
-      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Paul Thibault" style="width:100%">
+      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/paul-thibault-profile.png" alt="Paul Thibault" style="width:100%">
       <div class="container">
         <h3>Dr. Paul Thibault</h3>
         <p class="title">Professor of Linguistics and Media Communication</p>
@@ -128,20 +133,23 @@
   </div>
   <div class="col-sm">
     <div class="card">
-      <!-- <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Sally Coxe" style="width:100%">
-      <div class="container"> -->
-        <h3></h3>
-        <p class="title"></p>
-        <p></p>
+      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/anysja-roberts-profile.png" alt="Anysja Roberts" style="width:100%">
+      <div class="container">
+        <h3>Anysja Roberts</h3>
+        <p class="title">MS Candidate at George Washington University</p>
+        <p>Washington D.C.</p>
+        <p>Anysja Roberts is a Biomedical Engineering Master's student at George Washington University and works as a research technician in the Posnack Laboratory at Children's National Hospital, studying the impact of plastic on heart health. She holds a bachelor of science in Electrical Engineering from Northwest Nazarene University in Idaho, and is an experienced software developer.</p>
+        <p>Anysja has a huge heart for non-human animals and is especially interested in enabling their ability to advance themselves in this human-centered world. She is currently working closely with Dr. Sue Savage-Rumbaugh and the other BHI board members to help bonobos get the resources they deserve.</p>
       </div>
     </div>
+  </div>
   <div class="col-sm">
     <div class="card">
-      <!-- <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Sally Coxe" style="width:100%">
-      <div class="container"> -->
-        <h3></h3>
-        <p class="title"></p>
-        <p></p>
+      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/chaz-selph-profile.png" alt="Chaz Selph" style="width:100%">
+      <div class="container">
+        <h3>Chaz Selph</h3>
+        <p class="title">Arlington, Virginia</p>
+        <p>Chaz Selph is a historian and software developer. His research focuses on the role of language in shaping interactions between humans, non-humans, and technology. He holds an undergraduate degree in History from the University of California, Los Angeles.</p>
       </div>
     </div>
   </div>
@@ -159,7 +167,7 @@
         <p class="title">Professor of Comparative Literature, Romance Studies & Cognitive Science</p>
         <p>Director of French Studies</p>
         <p>Cornell University</p>
-        <p>Ithaca, NY</p>
+        <p>Ithaca, New York</p>
       </div>
     </div>
   </div>
@@ -169,7 +177,7 @@
       <div class="container">
         <h3>Julie Flaherty, JD</h3>
         <p class="title">Attorney</p>
-        <p>Minneapolis, MN</p>
+        <p>Minneapolis, Minnesota</p>
       </div>
     </div>
   </div>
@@ -180,7 +188,7 @@
         <h3>David Goldman, JD</h3>
         <p class="title">Attorney</p>
         <p>Babich Goldman, PC</p>
-        <p>Des Moines, IA</p>
+        <p>Des Moines, Iowa</p>
       </div>
     </div>
   </div>
@@ -191,7 +199,7 @@
         <h3>Amory Lovins</h3>
         <p class="title">Founder and Chairman Emeritus</p>
         <p>Rocky Mountain Institute</p>
-        <p>Basalt, CO</p>
+        <p>Basalt, Colorado</p>
       </div>
     </div>
   </div>
@@ -203,7 +211,7 @@
       <div class="container">
         <h3>Antigone Peyton, JD</h3>
         <p class="title">Cloudigy Law</p>
-        <p>Tysons Corner, VA</p>
+        <p>Tysons Corner, Virginia</p>
       </div>
     </div>
   </div>
@@ -214,7 +222,7 @@
         <h3>Dr. Sonia Ragir</h3>
         <p class="title">Professor Emeritus</p>
         <p>Animal Behavior and Conservation, Hunter College</p>
-        <p>New York City, NY</p>
+        <p>New York City, New York</p>
       </div>
     </div>
   </div>
@@ -251,10 +259,8 @@
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/sheila-profile.png" alt="Sheila Knoploh-Odole" style="width:100%">
       <div class="container">
         <h3>Sheila Knoploh-Odole</h3>
-        <p class="title">Professor of Comparative Literature, Romance Studies & Cognitive Science</p>
-        <p>Director of French Studies</p>
-        <p>Cornell University</p>
-        <p>Ithaca, NY</p>
+        <p class="title">Knoploh Law & Consulting</p>
+        <p>Des Moines, Iowa</p>
       </div>
     </div>
   </div>
@@ -271,6 +277,7 @@
     </div>
   </div>
 </div>
+
 
 
 <?php 

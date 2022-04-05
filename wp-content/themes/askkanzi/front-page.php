@@ -2,13 +2,56 @@
 	get_header();
 ?>   
 
-<div class="parallax3">
-	     	   <div class="container-header">
-			    <h1 class="heading page-title text-center py-5">Bonobo Hope International</h1>
-			    <p class="lead-header">BHI is an NGO dedicated to the care and well-being of the Matata family of bonobos, all great apes, and the education of the public regarding their cognitive and linguistic abilities. It is comprised of scientists and colleagues of Dr. Sue Savage Rumbaugh as well as those of other board members.</p>
-			    <a class="hero-button btn btn-primary btn-lg" href="<?php echo get_site_url(); ?>/about" role="button"> About Us</a>
-			</div>
-</div> 
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img class="first-slide" src="/wordpress/wp-content/themes/askkanzi/assets/images/kanzi-lights-fire.png" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+									<h1>Rekindling the Fire of Language in the Iowa Bonobo.</h1>
+               
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="second-slide" src="/wordpress/wp-content/themes/askkanzi/assets/images/matata-looks-distance.png" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption">
+              	<h1>Meet Matata.</h1>
+                <p>Matata was the family matriarch, brought to Yerkes on a special lend-lease agreement with the government of the Congo.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img class="third-slide" src="/wordpress/wp-content/themes/askkanzi/assets/images/kanzi-panbanisha-outside.jpg" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>Bonobo Hope International</h1>
+                <p>BHI is an NGO dedicated to the care and well-being of the Matata family of bonobos, all great apes, and the education of the public regarding their cognitive and linguistic abilities. It is comprised of scientists and lay persons interested in cultural, social cross generational linguistic capacities of apes, human and nonhuman.</p>
+                <p><a class="btn btn-lg btn-prifmary" href="<?php echo get_site_url(); ?>/about" role="button">About Us</a></p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+<!--  -->
 
 			        
 
@@ -85,22 +128,8 @@
 			</div>
 
 
+<?php echo do_shortcode('[mc4wp_form]'); ?>
 
-
-<div class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4" src="/wordpress/wp-content/themes/askkanzi/assets/images/legal.png" alt="" width="72" height="57">
-    <h1 class="display-5 fw-bold">Why BHI is Filing a Petition</h1>
-    <div class="col-md mx-auto">
-      <p class="lead-petition mb-4">The future of the Matata family of bonobos and research hangs in the balance, and thus BHI has decided to file a petition in Iowa State Court.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a  class="btn btn-primary btn-lg px-4 gap-3" href="<?php echo get_site_url(); ?>/why-bhi-is-filing-a-petition">Read here</a>
-      </div>
-    </div>
-  </div>
-
-
-
-		<?php echo do_shortcode('[mc4wp_form]'); ?>
 
 			<div class="parallax2">
 				<div class="parallax2-container">
@@ -119,6 +148,21 @@
 
 			</div>
 
+
+
+
+<div class="px-4 py-5 my-5 text-center">
+    <i class="fa-solid fa-lg fa-book"></i>
+    <h1 class="display-5 fw-bold">Research Trajectory</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">The Research of BHI did <em>not</em> begin with a theory about what an ape could or could not do– it began with a question, just as the research of Kellogg Hayes and the Gardners began with a question: Can human language and culture be acquired by an ape?</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a href="<?php echo get_site_url(); ?>/research"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Read Overview</button></a>
+        <a href="<?php echo get_site_url(); ?>/research"><button type="button" class="btn btn-outline-secondary btn-lg px-4">View Timeline</button></a>
+      </div>
+    </div>
+  </div>
+		
 
 
 
