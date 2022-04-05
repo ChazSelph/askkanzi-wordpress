@@ -35,7 +35,7 @@
               <div class="carousel-caption text-right">
                 <h1>Bonobo Hope International</h1>
                 <p>BHI is an NGO dedicated to the care and well-being of the Matata family of bonobos, all great apes, and the education of the public regarding their cognitive and linguistic abilities. It is comprised of scientists and lay persons interested in cultural, social cross generational linguistic capacities of apes, human and nonhuman.</p>
-                <p><a class="btn btn-lg btn-prifmary" href="<?php echo get_site_url(); ?>/about" role="button">About Us</a></p>
+                <p><a class="btn btn-lg btn-primary" href="<?php echo get_site_url(); ?>/about" role="button">About Us</a></p>
                 
               </div>
             </div>
