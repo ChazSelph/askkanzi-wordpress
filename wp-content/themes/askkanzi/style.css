@@ -1105,10 +1105,7 @@ li a:hover {
     line-height: 0em !important;
 }
 
-.row > * {
 
-  width: 33%;
-}
 .parallax {
   /* The image used */
   background-image: url("/wordpress/wp-content/themes/askkanzi/assets/images/teco-touches-ipad.png");

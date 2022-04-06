@@ -9,9 +9,9 @@
   
 <h1 class="board-header">Meet the Board</h1>
 <hr>
-
-<div class="row">
-  <div class="col">
+<div class="container">
+  <div class="row">
+  <div class="col-sm-4">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/sue-savage-rumbaugh-profile.jpg" alt="Sue Savage-Rumbaugh" style="width:100%">
       <div class="container">
@@ -22,7 +22,7 @@
     </div>
   </div>
 
-    <div class="col">
+    <div class="col-sm-4">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Bongoli Bingomo" style="width:100%">
       <div class="container">
@@ -33,7 +33,7 @@
       </div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-sm-4">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/sally-coxe-profile.png" alt="Sally Coxe" style="width:100%;">
       <div class="container">
@@ -48,10 +48,12 @@
     </div>
   </div>
 </div>
+</div>
+
 
   <div class="row">
   	  
-    <div class="col">
+    <div class="col-sm-4">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Carmen Mate" style="width:100%">
       <div class="container">
@@ -62,7 +64,7 @@
       </div>
     </div>
   </div>
-    <div class="col">
+    <div class="col-sm-4">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="David Olisar" style="width:100%">
       <div class="container">
@@ -72,7 +74,7 @@
       </div>
     </div>
   </div>
-      <div class="col">
+      <div class="col-sm-4">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/itai-roffman-profile.png" alt="Itai Roffman" style="width:100%">
       <div class="container">
@@ -88,7 +90,7 @@
 
 <div class="row">
 
-    <div class="col">
+    <div class="col-sm-4">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/shane-savage-rumbaugh-profile.png" alt="Shane Savage-Rumbaugh" style="width:100%">
       <div class="container">
@@ -100,7 +102,7 @@
       </div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-sm-4">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/paul-thibault-profile.png" alt="Paul Thibault" style="width:100%">
       <div class="container">
@@ -112,7 +114,7 @@
       </div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-sm-4">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/anysja-roberts-profile.png" alt="Anysja Roberts" style="width:100%">
       <div class="container">
@@ -128,7 +130,7 @@
 
 <div class="row">
     
-  <div class="col">
+  <div class="col-sm-4">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/chaz-selph-profile.png" alt="Chaz Selph" style="width:100%">
       <div class="container">
@@ -138,12 +140,12 @@
       </div>
     </div>
   </div>
-    <div class="col">
+    <div class="col-sm-4">
       <div class="card">
         
       </div>
     </div>
-    <div class="col">
+    <div class="col-sm-4">
       <div class="card">
         
       </div>
@@ -153,8 +155,9 @@
 
 <h1 class="board-header">Advisory Board</h1>
 <hr>
-<div class="row">
-    <div class="col">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Laurent Dubreuil" style="width:100%">
       <div class="container">
@@ -166,7 +169,7 @@
       </div>
     </div>
   </div>
-    <div class="col">
+    <div class="col-sm-3">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Julie Flaherty" style="width:100%">
       <div class="container">
@@ -176,7 +179,7 @@
       </div>
     </div>
   </div>
-    <div class="col">
+    <div class="col-sm-3">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="David Goldman" style="width:100%">
       <div class="container">
@@ -187,20 +190,21 @@
       </div>
     </div>
   </div>
-    <div class="col">
+    <div class="col-sm-3">
     <div class="card">
-      <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Amory Lovins" style="width:100%">
-      <div class="container">
-        <h3>Amory Lovins</h3>
-        <h3><span class="badge badge-light">Basalt, Colorado</span></h3>
-        <p class="title">Founder and Chairman Emeritus</p>
-        <p>Rocky Mountain Institute</p>
+        <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Amory Lovins" style="width:100%">
+        <div class="container">
+          <h3>Amory Lovins</h3>
+          <h3><span class="badge badge-light">Basalt, Colorado</span></h3>
+          <p class="title">Founder and Chairman Emeritus</p>
+          <p>Rocky Mountain Institute</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
 <div class="row">
-    <div class="col">
+    <div class="col-sm-3">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Antigone Peyton" style="width:100%">
       <div class="container">
@@ -210,7 +214,7 @@
       </div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-sm-3">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Sonia Ragir" style="width:100%">
       <div class="container">
@@ -221,7 +225,7 @@
       </div>
     </div>
   </div>
-    <div class="col">
+    <div class="col-sm-3">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Russell Tuttle" style="width:100%">
       <div class="container">
@@ -233,7 +237,7 @@
       </div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-sm-3">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Derek Wildman" style="width:100%">
       <div class="container">
@@ -246,7 +250,7 @@
   </div>
 </div>
 <div class="row">
-    <div class="col">
+    <div class="col-sm-3">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Nancy Howell" style="width:100%">
       <div class="container">
@@ -257,7 +261,7 @@
       </div>
     </div>
   </div>
-    <div class="col">
+    <div class="col-sm-3">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Ursula Goodenough" style="width:100%">
       <div class="container">
@@ -265,7 +269,7 @@
       </div>
     </div>
   </div>
-    <div class="col">
+    <div class="col-sm-3">
     <div class="card">
       <img src="/wordpress/wp-content/themes/askkanzi/assets/images/default-profile.png" alt="Doug Pernikoff" style="width:100%">
       <div class="container">
@@ -274,7 +278,7 @@
       </div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-sm-3">
       <div class="card">
         
       </div>
