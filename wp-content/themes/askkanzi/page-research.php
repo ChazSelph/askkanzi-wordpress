@@ -6,9 +6,22 @@
 
 
 <h2>Our Roots</h2>
+
+  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    1960s - 1980s
+  </a>
+
+    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+    1990s - 2000s
+  </a> 
+
+      <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+    2010s - present
+  </a>
+
 <div class="accordion" id="accordionExample">
-  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><h1 class="timeline-h1">1960s - 1980s</h1></button>
-  <div class="timeline" id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+
+  <div class="timeline collapse" id="collapseExample" aria-labelledby="headingOne" data-parent="#accordionExample">
     <div class="time-container time-left">
       <div class="time-content">
         <h2>1968 <span class="badge badge-secondary">Scientific Research</span></h2>
@@ -55,9 +68,8 @@
     </div>
   </div>
 
-  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><h1 class="timeline-h1">1990s - 2000s</h1></button>
 
-  <div class="timeline" id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+  <div class="timeline collapse" id="collapseExample2" aria-labelledby="headingTwo" data-parent="#accordionExample">
     <div class="time-container time-right">
         <div class="time-content">
           <h2>1999 <span class="badge badge-secondary">Administrative</span></h2>
@@ -156,10 +168,7 @@
     </div>
   </div>
 
-
-  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo"><h1 class="timeline-h1">2010s - present</h1></button>
-
-  <div class="timeline" id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+  <div class="timeline collapse" id="collapseExample3" aria-labelledby="headingThree" data-parent="#accordionExample">
     
       <div class="time-container time-right">
     <div class="time-content">
