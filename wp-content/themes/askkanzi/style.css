@@ -85,8 +85,6 @@ h6 {
 }
 p {
     font-size: 14px;
-    margin-left: 15px;
-    margin-right: 15px;
 }
 
 footer {
@@ -954,9 +952,21 @@ li a:hover {
     font-size: 16px;
 }
 
+.wp-social-link {
+    margin: 3px;
+
+}
 
 @media screen and (max-width: 600px) {
 
+    #g6770-name, #g6770-email, #contact-form-comment-g6770-message {
+        width: 100% !important;
+    }
+
+    .btn-contact {
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
     .btn {
         width: 100%;
     }
@@ -1045,10 +1055,8 @@ li a:hover {
     background-color: #e5efda;
 }
 
-.media-container {
-    margin-left: 100px;
-    margin-right: 100px;
-
+.collapse-btn {
+    margin: 5px;
 }
 .media-paragraph {
     margin-top: 25px;
@@ -1188,6 +1196,7 @@ li a:hover {
 .card {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     overflow: auto;
+    margin: 5px;
 }
 
 .mc4wp-alert {
