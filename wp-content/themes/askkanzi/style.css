@@ -14,9 +14,6 @@ This theme, like WordPress, is licensed under the GPL.
 
 */
 
-/*body.custom-background {
-	background-color: #fff;
-}*/
 
 :root {
     --blue: #007bff;
@@ -63,11 +60,15 @@ This theme, like WordPress, is licensed under the GPL.
 html {
     line-height: 1.15;
     height: 100%;
+    margin: 0;
 }
 body {
     color: var(--secondary);
     overflow-x: hidden;
     height: 100%;
+    position: relative;
+    margin: 0;
+    padding-top: 70px;
 }
 a{
     color: var(--pink);
@@ -87,6 +88,28 @@ p {
     margin-left: 15px;
     margin-right: 15px;
 }
+
+footer {
+    display: block;
+}
+
+.footer {
+    color: rgba(255, 255, 255, 0.7);
+    background-color: #e5efda;
+    width: 100%;
+}
+
+main {
+    min-height: 100%;
+    margin:  0;
+    padding: 0;
+}
+.content-inside {
+  padding-bottom: 50px;
+  margin: 0;
+  padding: 0;
+}
+
 .btn {
     font-weight: bold;
     padding: 15px;
@@ -219,14 +242,6 @@ font-weight: 300;
     background-color: rgba(255, 255, 255, 0.8)
 }
 
-.main-wrapper {
-    margin-left: var(--sidebar-width);
-    background: #fff;
-}
-
-.main-wrapper .container {
-    max-width: var(--content-max-width);
-}
 .page-title {
     position: static;
     top:0;
@@ -243,11 +258,7 @@ font-weight: 300;
     font-family: 'Fjalla One', sans-serif;
 }
 
-.footer {
-    color: rgba(255, 255, 255, 0.7);
-    background-color: #e5efda;
 
-}
 
 .footer a {
     color: #06130E;
@@ -263,7 +274,7 @@ font-weight: 300;
 
 }
 .content {
-    margin-bottom: 35%;
+    
 }
 .content .post .title {
     
@@ -311,7 +322,6 @@ font-weight: 300;
 .meta span a:hover {
     color: var(--secondary)
 }
-
 
 
 .meta span:last-child:after {
@@ -887,11 +897,13 @@ li a {
 }
 
 li a:hover {
-
   text-decoration:  none;
 }
 
-
+.row > * {
+  flex-shrink: 0;
+  width: unset !important;
+}
 
 
 .image-block {
@@ -901,16 +913,13 @@ li a:hover {
 
 
 
-
 @media screen and (max-width: 600px) {
 
-
     .email-field {
-    width: 90%;
+        width: 90%;
         padding: 15px;
         float: unset;
     }
-
 
     .card-body {
         grid-column-start: 1;
@@ -948,25 +957,24 @@ li a:hover {
 
 @media screen and (max-width: 600px) {
 
-        .email-field {
-    width: 90%;
-    padding: 15px;
-    float: unset;
-}
-
-
-
-    .signup-btn {
-        width: 90%;
-        margin: auto;
-        float: unset;
+    .btn {
+        width: 100%;
     }
 
+    .parallax2 {
+        background-position:  right !important;
+        min-height: 500px !important;
+    }
+
+    .email-field {
+        width: 90%;
+        padding: 15px;
+        float: unset;
+    }
 
     .media-container {
         margin-left: 10px;
         margin-right: 10px;
-
     }
 
     .card-body {
@@ -977,6 +985,8 @@ li a:hover {
     }
 
 }
+
+
 .card-title {
     font-family: 'Oswald', sans-serif;
     font-size: 21px;
@@ -1004,13 +1014,12 @@ li a:hover {
 
 .blockquote {
     color: #fff;
-  position: absolute; /* Position the background text */
-  bottom: -15px; /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-
-  width: 100%; /* Full width */
-  padding: 1px; /* Some padding */
+    position: absolute; /* Position the background text */
+    bottom: -15px; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    width: 100%; /* Full width */
+    padding: 1px; /* Some padding */
 }
 
 .blockquote-footer {
@@ -1025,14 +1034,12 @@ li a:hover {
     text-align:  center;
 }
 
-
 .row {
     margin-top: 15px;
     margin-left: 15px;
     margin-right:  15px;
     margin-bottom: 25px;
 }
-
 
 .wp-container-620bb9b042eb9 {
     background-color: #e5efda;
@@ -1059,7 +1066,6 @@ li a:hover {
       opacity: 0.9;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: cover;
       background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -1099,6 +1105,9 @@ li a:hover {
 .container-header {
     position: relative;
 }
+.container {
+    max-width: 100%;
+}
 .fa-lg {
     font-size: 2.8em !important;
     height: 30px !important;
@@ -1130,7 +1139,7 @@ li a:hover {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;}
+}
 
 
   .parallax3 {
@@ -1176,17 +1185,10 @@ li a:hover {
     float: right;
 }
 
-.signup-btn {
-    width: 55%;
-    margin: auto;
-}
-
 .card {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     overflow: auto;
 }
-
-
 
 .mc4wp-alert {
     color: #004085;
@@ -1195,29 +1197,10 @@ li a:hover {
 }
 
 
-.about-p {
-    display: block;
-    background-color: #e9ecef;
-    color: black;
-    font-size: 22px;
-    line-height: 38px;
-    font-family:  'mundo sans pro book',sans-serif;
-    width: 75%;
-    border-radius: 16px;
-    padding-top: 48px;
-    padding-right: 56px;
-    padding-bottom: 48px;
-    padding-left: 56px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
-
-
-}
 
 .pan-header {
     float: right;
-    color: black;
+    color: #24361F;
     font-size: 30px;
 }
 .pan-paragraph {
@@ -1243,13 +1226,7 @@ li a:hover {
     justify-content: center;
 }
 
-.btn-sue {
-    width: 25%;
-}
-
-
 #get-in-touch {
-
     font-size: 42px;
 }
 
@@ -1275,13 +1252,6 @@ li a:hover {
     font-size:  42px;
     text-align: center;
 }
-
-
-
-
-
-
-
 
 
 

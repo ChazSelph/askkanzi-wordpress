@@ -11,7 +11,7 @@
   gtag('config', 'UA-207385844-1');
 </script>
 
-    <title>Bonobo Hope</title>
+    <title>Bonobo Hope Inc</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -52,7 +52,7 @@
 
     <header class="text-center">	            
 	    
-	    <nav class="navbar navbar-light bg-light navbar-expand-md">
+	    <nav class="navbar navbar-light bg-light fixed-top navbar-expand-md">
         <a class="navbar-brand" href="<?php echo get_site_url(); ?>/">
             <img src="/wordpress/wp-content/themes/askkanzi/assets/images/logo.png"  width="50px" height="50px" alt="Bonobo Hope Inc logo">
         </a>
@@ -81,4 +81,7 @@
 
 
 
-        <div class="main-wrapper">
+        <main role="main">
+            <div class="content-inside">
+                
+            
