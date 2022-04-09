@@ -52,7 +52,7 @@
 
     <header class="text-center">	            
 	    
-	    <nav class="navbar navbar-light bg-light fixed-top navbar-expand-md">
+	    <nav class="navbar fixed-top navbar-expand-md">
         <a class="navbar-brand" href="<?php echo get_site_url(); ?>/">
             <img src="/wordpress/wp-content/themes/askkanzi/assets/images/logo.png"  width="50px" height="50px" alt="Bonobo Hope Inc logo">
         </a>

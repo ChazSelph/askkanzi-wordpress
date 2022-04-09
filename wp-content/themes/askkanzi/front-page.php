@@ -9,32 +9,41 @@
           <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item">
-            <img class="first-slide" src="/wordpress/wp-content/themes/askkanzi/assets/images/kanzi-lights-fire.png" alt="First slide">
+          <div class="carousel-item active" data-bs-interval="15000">
+            <img class="first-slide img-fluid" src="/wordpress/wp-content/themes/askkanzi/assets/images/kanzi-lights-fire.png" alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
-									<h1>Rekindling the Fire of Language in the Iowa Bonobo.</h1>
-               
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              	<div class="row">
+              		<h1 class="blockquote">Rekindling the Fire of Language in the Iowa Bonobo.</h1>
+              	</div>
+									
+               	<div class="row">
+               		<a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
+               	</div>
+                	
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="15000">
             <img class="second-slide" src="/wordpress/wp-content/themes/askkanzi/assets/images/matata-looks-distance.png" alt="Second slide">
             <div class="container">
-              <div class="carousel-caption">
-              	<h1>Meet Matata.</h1>
-                <p>Matata was the family matriarch, brought to Yerkes on a special lend-lease agreement with the government of the Congo.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <div class="row">
+              	<h1 class="blockquote">Meet Matata.</h1>
+              </div>
+              <div class="row carousel-caption">
+                <p class="blockquote">Matriarch of the Iowa Bonobo Family 1969-2014.</p>
+              </div>
+              <div class="row carousel-caption">
+                <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
               </div>
             </div>
           </div>
-          <div class="carousel-item active">
+          <div class="carousel-item" data-bs-interval="15000">
             <img class="third-slide" src="/wordpress/wp-content/themes/askkanzi/assets/images/kanzi-panbanisha-outside.jpg" alt="Third slide">
             <div class="container">
               <div class="carousel-caption text-right">
-                <h1>Bonobo Hope International</h1>
-                <p>BHI is an NGO dedicated to the care and well-being of the Matata family of bonobos, all great apes, and the education of the public regarding their cognitive and linguistic abilities. It is comprised of scientists and lay persons interested in cultural, social cross generational linguistic capacities of apes, human and nonhuman.</p>
+                <p class="blockquote">Bonobos are an Extraordinary Great ape Species. BHI calls for their Freedom.
+							</p>
                 <p><a class="btn btn-lg btn-primary" href="<?php echo get_site_url(); ?>/about" role="button">About Us</a></p>
                 
               </div>
@@ -155,7 +164,7 @@
 
 <div class="px-4 py-5 my-5 text-center">
     <i class="fa-solid fa-lg fa-book"></i>
-    <h1 class="display-5 fw-bold">Research Trajectory</h1>
+    <h1 id="research-trajectory-header" class="display-5 fw-bold">Research Trajectory</h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">The Research of BHI did <em>not</em> begin with a theory about what an ape could or could not do– it began with a question, just as the research of Kellogg Hayes and the Gardners began with a question: Can human language and culture be acquired by an ape?</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
