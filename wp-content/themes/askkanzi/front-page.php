@@ -157,7 +157,21 @@
 
 			</div>
 
-
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="/wordpress/wp-content/themes/askkanzi/assets/images/together-button.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3 text-center">What does BHI represent?</h1>
+        <p class="lead">BHI represents a different way of thinking about, and relating to, nonhuman great apes. Our perspective is derived from the complex personalities and lives discovered through studies of many apes with different rearing backgrounds. And through a totally new understanding the effect two-way linguistic interspecies communication has had on captive bonobos that will now enable a working dialogue with noncaptive bonobos and a return home of for all bonobos.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        	<a href="<?php echo get_site_url(); ?>/2022/04/09/the-sharing-of-mental-worlds/"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Read more</button></a>
+         
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 <div class="px-4 py-5 my-5 text-center">
