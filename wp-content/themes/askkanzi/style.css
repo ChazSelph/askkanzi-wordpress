@@ -89,11 +89,13 @@ p {
 
 footer {
     display: block;
+
 }
 
 .footer {
     color: rgba(255, 255, 255, 0.7);
-    background-color: #e5efda;
+    margin-top: 15px;
+    background-color: #ffc34d;
     width: 100%;
 }
 
@@ -227,7 +229,7 @@ main {
     width:78px;
 }
 .social-list {
-    background-color: #e5efda;
+    background-color: #ffc34d;
 
 }
 .social-list a {
@@ -263,17 +265,17 @@ main {
 
 
 .footer a {
-    color: #06130E;
+    color: #732673;
 }
 
 .footer-disclaimer {
-    color: black;
+    color: #696969;
     font-size: 15px;
 }
 .footer-title {
     font-family: 'Oswald', sans-serif;
     font-size: 22px;
-
+    text-align: center;
 }
 .content {
     
@@ -810,10 +812,6 @@ div.comment:first-of-type {
 }
 
 
-.wp-block-search .wp-block-search__input {
-    margin-left:  5%;
-    margin-right:  3%;
-}
 
 .wp-block-search__button {
     margin-right:  5%;
@@ -823,6 +821,7 @@ div.comment:first-of-type {
     border-radius: 10px;
     text-align: center;
     padding: 15px 15px !important;
+    min-width: 150px;
 
 }
 .wp-block-search__button:hover {
@@ -965,6 +964,10 @@ li a:hover {
 
 @media screen and (max-width: 600px) {
 
+    .media-paragraph {
+        width: 100% !important;
+    }
+
     .pan-paragraph {
         width: 100%;
     }
@@ -1067,8 +1070,9 @@ li a:hover {
     margin: 5px;
 }
 .media-paragraph {
-    margin-top: 25px;
+    margin: auto;
     font-size: 22px;
+    width: 50%;
 }
 
 .pan-image {
@@ -1409,8 +1413,11 @@ z-index: 1030;
   left: 0%;
   }
 }
-
-
+.card-img-top {
+    height: auto; 
+    width: auto; 
+    max-height: 250px; 
+    background-size:contain;}
 .timeline-hr {
     text-align: center;
     text-decoration: none;
@@ -1422,7 +1429,7 @@ z-index: 1030;
 }
 
 
-.badge {
+.badge-secondary {
     font-size: 50% !important;
 }
 

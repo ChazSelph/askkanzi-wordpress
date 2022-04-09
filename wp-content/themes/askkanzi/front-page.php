@@ -42,7 +42,7 @@
             <img class="third-slide" src="/wordpress/wp-content/themes/askkanzi/assets/images/kanzi-panbanisha-outside.jpg" alt="Third slide">
             <div class="container">
               <div class="carousel-caption text-right">
-                <p class="blockquote">Bonobos are an Extraordinary Great ape Species. BHI calls for their Freedom.
+                <p class="blockquote">Bonobos are an Extraordinary Great Ape species. BHI calls for their freedom.
 							</p>
                 <p><a class="btn btn-lg btn-primary" href="<?php echo get_site_url(); ?>/about" role="button">About Us</a></p>
                 
@@ -112,12 +112,12 @@
 			  	<div class="card-header">
 			    	<i class="fa-solid fa-book"></i> Scientific Research
 			    </div>
-			    <img class="card-img-top" src="https://www.cambridge.org/core/services/aop-file-manager/file/594a50baaab423c41bce222e" alt="Card image cap">
+			    <img class="card-img-top" src="/wordpress/wp-content/themes/askkanzi/assets/images/theoria.jpg"  alt="Card image cap">
 			    <div class="card-body">
-			      <h5 class="card-title">Material Practices of Ape Language</h5>
+			      <h5 class="card-title">Culture Prefigures Cognition</h5>
 			      <hr>
-			      <p class="card-text">William Mintz Fields, Par Segerdahl, and Sue Savage-Rumbaugh present an analysis of the material practices of ape language in the Cambridge Handbook of Sociocultural Psychology. </p>
-			      <a class="btn btn-primary btn-lg" href="https://www.interspecies.io/" target="_blank" role="button">Read article</a>
+			      <p class="card-text">This article addresses the ability of the Iowa bonobos to intentionally ‘make-meaning’ in the service of communication, as opposed to simply expressing their own emotions with the hope of gaining an appropriate response from a person, or another bonobos.</p>
+			      <a class="btn btn-primary btn-lg" href="<?php echo get_site_url(); ?>/2022/03/15/culture-prefigures-cognition/" role="button">Read article</a>
 			    </div>
 			  </div>
 
@@ -130,7 +130,7 @@
 			      <h5 class="card-title">Animals Say What? Podcast</h5>
 			      <hr>
 			      <p class="card-text">Sue Savage-Rumbaugh and Chaz Selph join Anysja Roberts to discuss bonobos, dogs, and the non-human mind.</p>
-			      <a class="btn btn-primary btn-lg" href="https://askkanzi.net/2022/01/15/animals-say-what-podcast/" target="_blank" role="button">Listen</a>
+			      <a class="btn btn-primary btn-lg" href="<?php echo get_site_url(); ?>/2022/01/15/animals-say-what-podcast/" target="_blank" role="button">Listen</a>
 			    </div>
 			  </div>
 
@@ -168,7 +168,7 @@
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">The Research of BHI did <em>not</em> begin with a theory about what an ape could or could not do– it began with a question, just as the research of Kellogg Hayes and the Gardners began with a question: Can human language and culture be acquired by an ape?</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a href="<?php echo get_site_url(); ?>/research"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Read Overview</button></a>
+        <a href="<?php echo get_site_url(); ?>/trajectory-overview"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Read Overview</button></a>
         <a href="<?php echo get_site_url(); ?>/research"><button type="button" class="btn btn-outline-secondary btn-lg px-4">View Timeline</button></a>
       </div>
     </div>
