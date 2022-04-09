@@ -3,12 +3,9 @@
 
 <footer class="footer">
       <div class="container">
-             <p class="footer-title">
-                <a href="<?php echo get_home_url(); ?>">Bonobo Hope Inc.</a>
-            </p>
-
-
-            <div class="footer-disclaimer"><i>Bonobo Hope International is an NGO registered with the US Internal Revenue Service as a 501[c](3) non-profit organization (EIN# 45-3218086).</i><br><br>© 2013 - 2022 Bonobo Hope International</div>
+             <h2 class="footer-title">
+                <a href="<?php echo get_home_url(); ?>">Bonobo Hope International</a>
+            </h2>
 
             <div class="social-container">
            <ul class="social-list list-inline py-3 mx-auto">
@@ -19,6 +16,10 @@
                     
                 </ul> 
             </div>
+
+            <div class="footer-disclaimer"><i>Bonobo Hope International is an NGO registered with the US Internal Revenue Service as a 501[c](3) non-profit organization (EIN# 45-3218086).</i><br><br>© 2013 - 2022 Bonobo Hope International</div>
+
+            
 
                     <?php  
 

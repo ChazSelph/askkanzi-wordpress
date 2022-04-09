@@ -12,41 +12,39 @@
           <div class="carousel-item active" data-bs-interval="15000">
             <img class="first-slide img-fluid" src="/wordpress/wp-content/themes/askkanzi/assets/images/kanzi-lights-fire.png" alt="First slide">
             <div class="container">
-              <div class="carousel-caption text-left">
-              	<div class="row">
-              		<h1 class="blockquote">Rekindling the Fire of Language in the Iowa Bonobo.</h1>
-              	</div>
-									
-               	<div class="row">
-               		<a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
-               	</div>
-                	
-              </div>
+             
+              	<h1 class="blockquote carousel-header">Rekindling the Fire of Language in the Iowa Bonobo.</h1>
+              
+              
+                <a class="btn btn-lg btn-primary carousel-button" href="#" role="button">Learn more</a>
+              
+               		
+              
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="15000">
             <img class="second-slide" src="/wordpress/wp-content/themes/askkanzi/assets/images/matata-looks-distance.png" alt="Second slide">
             <div class="container">
+              
+              	<h1 class="blockquote carousel-header">Meet Matata.</h1>
+              
+              <div class="row ">
+                <p class="blockquote carousel-caption">Matriarch of the Iowa Bonobo Family 1969-2014.</p>
+              </div>
               <div class="row">
-              	<h1 class="blockquote">Meet Matata.</h1>
-              </div>
-              <div class="row carousel-caption">
-                <p class="blockquote">Matriarch of the Iowa Bonobo Family 1969-2014.</p>
-              </div>
-              <div class="row carousel-caption">
-                <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
+                <a class="btn btn-lg btn-primary carousel-button" href="#" role="button">Learn more</a>
               </div>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="15000">
             <img class="third-slide" src="/wordpress/wp-content/themes/askkanzi/assets/images/kanzi-panbanisha-outside.jpg" alt="Third slide">
             <div class="container">
-              <div class="carousel-caption text-right">
-                <p class="blockquote">Bonobos are an Extraordinary Great Ape species. BHI calls for their freedom.
+             
+                <p class="blockquote carousel-header">Bonobos are an extraordinary Great Ape species. BHI calls for their freedom.
 							</p>
-                <p><a class="btn btn-lg btn-primary" href="<?php echo get_site_url(); ?>/about" role="button">About Us</a></p>
+                <p><a class="btn btn-lg btn-primary carousel-button" href="<?php echo get_site_url(); ?>/about" role="button">About Us</a></p>
                 
-              </div>
+              
             </div>
           </div>
         </div>
@@ -146,7 +144,7 @@
 							<h1 class="pan-header col">Pan Survival in the 21st Century</h1>
 						</div>
 					    <div class="row">
-					    	<p class="pan-paragraph col-sm">Chimpanzees (Pan troglodytes) and bonobos (Pan paniscus) should be added to the Homo genus and given the right to freedom and independence, argue evolutionary anthropologist Itai Roffman and his colleagues.</p>
+					    	<p class="pan-paragraph col">Chimpanzees (Pan troglodytes) and bonobos (Pan paniscus) should be added to the Homo genus and given the right to freedom and independence, argue evolutionary anthropologist Itai Roffman and his colleagues.</p>
 					    </div>
 				     	<div class="row">
 				     		<a class="btn btn-primary btn-lg col-sm" href="http://www.pontecorboli.com/digital/OpenAccess/Roffman_Pan.pdf" target="_blank" role="button"> Read here</a>
